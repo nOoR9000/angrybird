@@ -27,7 +27,7 @@ function setup(){
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
     pig3 = new Pig(810, 220);
-
+    bird2 = new Bird(200, 100)
     log3 =  new Log(810,180,300, PI/2);
 
     box5 = new Box(810,160,70,70);
@@ -45,6 +45,7 @@ function draw(){
     console.log(box2.body.position.y);
     console.log(box2.body.angle);
     box1.display();
+    bird2.display();
     box2.display();
     ground.display();
     pig1.display();
